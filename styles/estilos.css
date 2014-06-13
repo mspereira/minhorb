@@ -262,16 +262,18 @@ font-size: 21px;
 	font-size: 18px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;	
 	color: white;
-	width:300px;
+	width:400px;
 	margin-left: 450px;
 	float: left;
 	position: relative;
 	clear: left;
 }
 #faces h3 {
+	margin-top: 0px;
 	font-size: 18px;
 }
 #faces img{
+
 	margin-bottom: 15px;
 	width:65px;
 }
