@@ -268,3 +268,17 @@ font-size: 21px;
 	width:65px;
 }
 
+#fold_4 {
+	margin-top: 0;
+	height: 740px;
+	width: 100%;
+}
+.vertical_line{
+	border-left:1px solid #000;
+	height:500px;
+}
+
+#gp{
+	width: 260px;
+	height: 190px;
+}
