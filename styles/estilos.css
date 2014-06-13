@@ -316,19 +316,30 @@ font-size: 21px;
 	border-left:1px solid #ffffff;
 	height:500px;
 	float: left;
-}
 
+}
+#sponsors_warper{
+	margin: 0 auto;
+	width: 1280px;
+	height: 740px;
+}
 #groupbuddies{
 	float: left;
+	width: 40%;
+
 }
 
 #groupbuddies img{
-	width: 260px;
+	width: 250px;
 	height: 190px;
+	margin-left: 80px;
+	margin-bottom: 30px;
 }
 
 #factory{
+	padding-left: 100px;
 	float: right;
+	width: 48%;
 }
 #factory img{
 	width: 440px;
