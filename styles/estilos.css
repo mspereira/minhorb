@@ -234,6 +234,8 @@ font-size: 21px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
 }
 #mapa {
+	z-index: -1;
+	position: absolute;
 	width: 310;
 	height:375;
 	background: url(..//img/twitter_fundo.png);3
@@ -256,12 +258,18 @@ font-size: 21px;
 	padding-bottom: 20px;
 }
 #faces {
+	z-index: -1;
 	font-size: 18px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;	
 	color: white;
-	float: left;
 	width:300px;
-	margin-left: 100px;
+	margin-left: 450px;
+	float: left;
+	position: relative;
+	clear: left;
+}
+#faces h3 {
+	font-size: 18px;
 }
 #faces img{
 	margin-bottom: 15px;
