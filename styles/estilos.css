@@ -326,6 +326,7 @@ font-size: 21px;
 	border-left:1px solid #ffffff;
 	height:500px;
 	float: left;
+	margin-left: 40px;
 
 }
 #sponsors_warper{
@@ -350,7 +351,7 @@ font-size: 21px;
 #factory{
 	padding-left: 100px;
 	float: right;
-	width: 48%;
+	width: 40%;
 }
 #factory img{
 	width: 440px;
