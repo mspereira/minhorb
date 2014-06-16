@@ -267,7 +267,7 @@ font-size: 21px;
 	position: relative;
 	clear: left;
 }
-#faces #name p {
+#faces #name p { 
 	font-size: 18px;
     font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
     float: right;
@@ -336,6 +336,7 @@ font-size: 21px;
 #groupbuddies{
 	float: left;
 	width: 40%;
+	margin-left: 50px;
 
 }
 
