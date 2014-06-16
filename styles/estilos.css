@@ -262,11 +262,21 @@ font-size: 21px;
 	font-size: 18px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;	
 	color: white;
-	width:400px;
 	margin-left: 450px;
 	float: left;
 	position: relative;
 	clear: left;
+}
+#faces #name p {
+	font-size: 18px;
+    font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+    float: right;
+    margin-left: 15px;
+}
+#faces #name p{
+	font-size: 18px;
+    font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+    float: right;
 }
 #faces h3 {
 	margin-top: 0px;
