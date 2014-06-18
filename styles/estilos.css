@@ -1,5 +1,6 @@
 body{
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
+  Helvetica, Arial, "Lucida Grande", sans-serif;
 		margin: 0;
 }
 
@@ -306,14 +307,29 @@ font-size: 21px;
 
 
 .faces{
+	margin-left: 120px;
+	vertical-align: top;
 	display: inline-block;
 	width: 30%;
 }
 .faces ul{
+	margin: 0;
+	padding: 0;
 	list-style: none;
-}.faces img{
+}
+.faces ul li{
+	padding-left: 0px;
+	padding-top: 20px;
+	color: white;
+}
+.faces ul li:first-child{
+	display: inline-block;
+	padding:0;
+	color: white;
+
+}
+.faces img{
+	display: inline-block;
 	width: 65px;
 	height: 65px;
 }
-
-
