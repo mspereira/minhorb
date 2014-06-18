@@ -1,15 +1,12 @@
 body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		background: url(..//img/fundo.png);
+		margin: 0;
 }
 
-.wraper{
-	width: 75%;
-	margin: 0 auto 0 auto;
-	min-width: 1280px;
-}
+
 
 header {
+	z-index: 1;
 	left: 0;
 	position: absolute;
 	width: 100%;
@@ -65,10 +62,20 @@ nav ul li a {
 }
 
 /*HOME*/
+.wraper_home{
+	background-size: 100%;
+	background:url(..//img/fundo_pag_1.png);
+	width: 100%;
+	margin: 0 auto 0 auto;
+	min-width: 1280px;
 
+
+}
 #home{
 	margin-top: 150px;
-	height: 640px;
+	height: 1000px;
+	max-width: 1280px;
+	margin: 150 auto 0;
 }
 .home_minhorb{
 	vertical-align: top;
@@ -85,7 +92,6 @@ nav ul li a {
 
 .next_event{
 	margin-left: 5%;
-	z-index: -1;
 	position: relative;
 	margin-top: 2%;
 	background: url(..//img/fundo_red_poly.jpg);
@@ -205,11 +211,18 @@ font-size: 21px;
 /*Fim Home*/
 
 /*Inico Sobre*/
+.wraper_about{
+	background-size: 100%;
+	background-color: #333333;
+	width: 100%;
+	margin: 0 auto 0 auto;
+	min-width: 1280px;
+}
 #about{
-	z-index: -1;
 	position: relative;
-	display: inline-block;
 	height: 800px;
+	max-width: 1280px;
+	margin: 0 auto;
 }
 .about_fold2{
 	display: inline-block;
@@ -227,10 +240,9 @@ font-size: 21px;
 
 }
 .photos_about{
-	top: 250;
-	right: -600;
+	right: 0;
 	position: absolute;
-	margin-left: 30px;
+	top: 270;
 	display: inline-block;
 	width: 450px;
 }
