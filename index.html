@@ -5,117 +5,140 @@
 		<link rel="stylesheet" type="text/css" href="styles/estilos.css">
 	</head>
 	<body>
-			<div id="wraper_header">
-				<header>
-					<nav>
-						<ul>
-							<img src="img/logo_rb_square.png">
-							<li><a href="#fold_1">Home</a></li>
-							<li><a href="#fold_2">About</a></li>
-							<li><a href="#fold_3">Events</a></li>
-							<li><a href="#">Sponsors</a></li>
-							<li class="header_news"><a href="">Subscribe to our newsletter</a></li>
-						</ul>
-					</nav>
-				</header>
-			</div>
-				
-			<div id="wraper">
-				<section id="fold_1"> 
-					<div id="aside">
-							<ul>
-							
-								<li>Next Event</li>
-								<li>JUN 15th</li>
-								<li>18:00 H</li>
-								<li>Gnration</li>
-								<li>Praça Conde De Agrolongo</li>
-								<li>4700-309 Braga Portugal</li>
-								<li><img src="img/location-big_WHITE.png">HOW TO GET THERE</li>
-							</ul>
-						<div class="book_spot"><a href="">Book my spot</a></div>
-					</div>
-					<p><img src="img/minho_rb.png"><br>
+			<header>
+				<nav>
+					<img src="img/logo_rb_square.png">
+					<ul>
+						<li><a href="#home">Home</a></li>
+						<li><a href="#about">About</a></li>
+						<li><a href="#events">Events</a></li>
+						<li><a href="sponsors">Sponsors</a></li>
+						<li class="header_news"><a href="">Subscribe to our newsletter</a></li>
+					</ul>
+				</nav>
+			</header>
+		<div class="wraper">
+
+
+
+			<!-- INICIO FOLD_1 "HOME"-->
+			<section id="home">
+				<article class="home_minhorb">
+					<p>
+						<img src="img/minho_rb.png">
+					</p>
+					<p>
 						Minho Ruby Brigade, where people go to talk and share 
-							ideas about Ruby and Ruby on Rails	
+						ideas about Ruby and Ruby on Rails	
 					</p>
-
-							<div id="form"><p>To be updated with the latest news , subscribe our newsletter</p>
-								<form>
-									<input type="email" name="email" autocomplete="on" placeholder="Insert Your Email">
-									<button type="button">Submit</button>
-								</form>
-
-							</div>
-				</section>
-				<section id="fold_2">
-				<aside id="photos">
-						<img src="img/photos/1.png">
-						<img src="img/photos/2.png">
-						<img src="img/photos/3.png">
-						<img src="img/photos/4.png">
-					</aside>
-					<h1>What’s to know <br>
-						about Minho.rb
-					</h1>
-						<p>
-						Minho Ruby Brigade was formed by local developers who desired a place to talk about Ruby specific topics and share code. It has since grown into a thriving community as vibrant and creative as the Ruby language itself.
-						</p>
-						<p>	Today we meet to discuss and hack on Ruby code and strive to keep to the principle of less slides more code.
-						</p>
-						<div>
-							<a class="twitter-timeline"  width="700" height="250" href="https://twitter.com/twitterapi" data-widget-id="477128354831667203" data-chrome="transparent"></a>
-							<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
-							</script>
-						</div>
-				</section>	
-				<section id="fold_3">
-					<h2>
-						Upcoming Events
-					</h2>
-					<p>
-						Minho.rb
-					</p>					
-					<p>
-						JUNE 15 / 18:00 H<BR>
-						 GNRATION
-					</p>
-					<div id="mapa">
-								<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d186.60977302511975!2d-8.426600572721732!3d41.55287207307899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d41.5529017!2d-8.4264668!5e0!3m2!1spt-PT!2spt!4v1402657957308" width="270" height="290" frameborder="0" style="border:0"></iframe>
-							<div class="book_spot_mapa"><a href=4"">Book my spot</a>
-							</div>
+					<div class="form">
+					<p>To be updated with the latest news , subscribe our newsletter</p>
+					<form>
+						<input type="email" name="email" autocomplete="on" placeholder="Insert Your Email">
+						<button type="button">Submit</button>
+					</form>
 					</div>
-						<section id ="faces">
-							<h3>Who's Speaking</h3>
-							<div id="name"><img src="img/joao-circle-bw.png"><p>João Ferreira</p></div>
-							<div id="name"><img src="img/palhas-circle-bw.png"><p>Miguel Palhas</p></div>
-							<div id="name"><img src="img/gabriel-circle-bw.png"><p>Gabriel Poça</p></div>
-						</section>
+				</article>
+				<!-- INICIO NEXT EVENT-->	
+				<section class="next_event">				
+						<p>Next Event</p>
+						<p>JUN 15th</p>
+						<p>18:00 H</p>
+						<p>Gnration</p>
+						<p>Praça Conde De Agrolongo</p>
+						<p>HOW TO GET THERE4700-309 Braga Portugal</p>
+					<div class="book_spot"><a href="#">Book my spot</a></div>
 				</section>
-				<section id="fold_4">
-						<div id="become_sponsor"><a href="#">+ Become a Sponsor</a></div>
-						<h1> Sponsors </h1>
-					<article id="sponsors_warper">
-						<div id="groupbuddies">
-							<img src="img/logo_wh.png">
-							<p>We handcraft web and mobile products in a lean and agile culture.
- 						       We study the problem, customers and target-audience so we can sketch a suited solution. Once we get it right, we design it to perfection.
-						       We thrive with solid and clean code. In order to ensure we achieve those high standards all the time, we've set up a rigorous and methodic workflow in which quality is key.
-							</p>
+				<!-- FIM NEXT EVENT-->
+			</section>
+			<!-- INICIO FOLD_1 "HOME"-->
+
+
+
+
+			<!-- INICIO FOLD_2"ABOUT"-->
+			<section id="about">
+				<article class="about_fold2" >
+				<h1>What’s to know <br>
+					about Minho.rb
+				</h1>
+					<p>
+					Minho Ruby Brigade was formed by local developers who desired a place to talk about Ruby specific topics and share code. It has since grown into a thriving community as vibrant and creative as the Ruby language itself.
+					</p>
+					<p>	Today we meet to discuss and hack on Ruby code and strive to keep to the principle of less slides more code.
+					</p>
+					<div>
+						<a class="twitter-timeline"  width="700" height="250" href="https://twitter.com/twitterapi" data-widget-class="477128354831667203" data-chrome="transparent"></a>
+						<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.class=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");
+						</script>
+					</div>
+				<aside class="photos">
+					<img src="img/photos/1.png">
+					<img src="img/photos/2.png">
+					<img src="img/photos/3.png">
+					<img src="img/photos/4.png">
+				</aside>
+				</article>
+			</section>	
+			<!-- FIM FOLD_2"ABOUT"-->
+
+
+			<!-- INICIO FOLD_3"events"-->
+			<section id="events">
+				<article class="events_style">
+				<h2>
+					Upcoming Events
+				</h2>
+				<p>
+					Minho.rb
+				</p>					
+				<p>
+					JUNE 15 / 18:00 H<BR>
+					 GNRATION
+				</p>
+				<div class="mapa">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m22!1m12!1m3!1d186.60977302511975!2d-8.426600572721732!3d41.55287207307899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m7!1i0!3e6!4m0!4m3!3m2!1d41.5529017!2d-8.4264668!5e0!3m2!1spt-PT!2spt!4v1402657957308" width="270" height="290" frameborder="0" style="border:0"></iframe>
+						<div class="book_spot_mapa"><a href=4"">Book my spot</a>
 						</div>
+				</div>
+					<section class="faces">
+						<ul>
+							<li>Who's Speaking</li>
+							<li><p>João Ferreira</p><img src="img/joao-circle-bw.png"></li>
+							<li><p>Miguel Palhas</p><img src="img/palhas-circle-bw.png"></li>
+							<li><p>Gabriel Poça</p><img src="img/gabriel-circle-bw.png"></li>
+						<ul>
+					</section>
+					</article>
+			</section>
+			<!-- FIM FOLD_3"events"-->
 
-							<div class="vertical_line"></div>
+			<!-- INICIO FOLD_4"sponsors"-->
+			<section id="sponsors">
+				<article class="sponsors_style">
+					<div class="become_sponsor"><a href="#">+ Become a Sponsor</a></div>
+					<h1> Sponsors </h1>
+				<article class="sponsors_warper">
+					<div class="groupbuddies">
+						<img src="img/logo_wh.png">
+						<p>We handcraft web and mobile products in a lean and agile culture.
+						       We study the problem, customers and target-audience so we can sketch a suited solution. Once we get it right, we design it to perfection.
+					       We thrive with solid and clean code. In order to ensure we achieve those high standards all the time, we've set up a rigorous and methodic workflow in which quality is key.
+						</p>
+					</div>
+					<div class="vertical_line"></div>
+					<div class="factory">
+						<img src="img/factory_white.png">
+						<p>More ...than a cowork space. It is a place where they meet freelancers, startups and small business owners, all of which work together to succeed in your business. It creates connections that represent a will to win together! 
+                        Here you will find what you need to transform your idea into reality 
+					    and make your business happen.
+						</p>
+					</div>
+			    </article> 
+			    </article>
+			</section>
+			<!-- FIM FOLD_4"sponsors"-->
 
-						<div id="factory">
-							<img src="img/factory_white.png">
-							<p>More ...than a cowork space. It is a place where they meet freelancers, startups and small business owners, all of which work together to succeed in your business. It creates connections that represent a will to win together! 
-                            Here you will find what you need to transform your idea into reality 
-						    and make your business happen.
-							</p>
-						</div>
-
-				    </article> 
-				</section>
-			</div>	
+		</div>	
 	</body>
 </html>
