@@ -188,6 +188,7 @@ font-size: 21px;
 
 /*Inico Sobre*/
 #about{
+	z-index: -1;
 	position: relative;
 	display: inline-block;
 	height: 800px;
@@ -208,14 +209,14 @@ font-size: 21px;
 
 }
 .photos_about{
-	right: 0;
-	top:0;
+	top: 250;
+	right: -600;
 	position: absolute;
 	margin-left: 30px;
 	display: inline-block;
-	width: 400px;
+	width: 450px;
 }
 .photos_about img{
-	width: 180px;
-	height: 180px;
+	width: 200px;
+	height: 200px;
 }
