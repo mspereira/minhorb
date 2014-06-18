@@ -152,10 +152,34 @@ font-size: 21px;
 
 /*Inico Sobre*/
 #about{
+	position: relative;
+	display: inline-block;
 	height: 800px;
 }
+.about_fold2{
+	display: inline-block;
+	width: 700px;
+}
 .about_fold2 h1{
-	font-size: 60px;
-	font-family:"HelveticaNeue-lightitalic", Helvetica, "Arial-lightitalic;", sans-serif;
 	color: #ffffff;
+	font-size: 60px;
+
+}
+.about_fold2 p{
+	color: #ffffff;
+	font-size: 21px;
+	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+
+}
+.photos_about{
+	right: 0;
+	top:0;
+	position: absolute;
+	margin-left: 30px;
+	display: inline-block;
+	width: 400px;
+}
+.photos_about img{
+	width: 180px;
+	height: 180px;
 }
