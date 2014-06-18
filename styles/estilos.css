@@ -99,7 +99,7 @@ nav ul li a {
 	font-family:"HelveticaNeue-Light", Helvetica, "Arial-light", sans-serif;
 	color: #ffffff;
 	font-size: 21px;
-	padding-left: 10px;
+	padding-left: 50px;
 }
 
 .next_event p:nth-child(1){
@@ -121,11 +121,19 @@ nav ul li a {
 
 .next_event p:nth-child(4){
 	margin-top: 25px;
+	margin-bottom: -10px;
 	font-size: 29px;
 	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 }
 
+
 .next_event p:nth-child(5){
+	font-size: 21px;
+	font-family:"HelveticaNeue-light", Helvetica, "Arial-light", sans-serif;
+}
+
+.next_event p:nth-child(6){
+	margin-top: -20px;
 	font-size: 21px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light", sans-serif;
 }
@@ -134,6 +142,13 @@ nav ul li a {
 	margin-top: 45px;	
 	font-size: 21px;
 	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+
+}
+
+.next_event p img{
+	margin-right: 10px;
+	width: 33px;
+	height: 45px;
 
 }
 
@@ -151,8 +166,10 @@ nav ul li a {
 }.book_spot a {
 	display: block;
 	color: #ffffff;
-	text-decoration: none;}
-		.book_spot a:hover{color: #666666}
+	text-decoration: none;
+	margin-top: 10px;
+}
+.book_spot a:hover{color: #666666}
 
 
 form{
