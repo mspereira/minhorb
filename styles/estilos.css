@@ -80,7 +80,7 @@ nav ul li a {
 			font-family:"HelveticaNeue-Light", Helvetica, "Arial-light", sans-serif;
 			font-size: 29px;
 			color: #666666;
-		}
+}
 
 
 .next_event{
@@ -94,12 +94,48 @@ nav ul li a {
 	display: inline-block;
 	width: 400px;
 	height: 450px;
-}	.next_event p {
+}	
+.next_event p {
 	font-family:"HelveticaNeue-Light", Helvetica, "Arial-light", sans-serif;
 	color: #ffffff;
 	font-size: 21px;
-	padding-left: 10px;}
+	padding-left: 10px;
+}
 
+.next_event p:nth-child(1){
+	font-size: 21px;
+	font-family:"HelveticaNeue-light", Helvetica, "Arial-light", sans-serif;
+}
+
+.next_event p:nth-child(2){
+	margin-top: 30px;
+	font-size: 29px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+}
+
+.next_event p:nth-child(3){
+	margin-top: -20px;
+	font-size: 29px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+}
+
+.next_event p:nth-child(4){
+	margin-top: 25px;
+	font-size: 29px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+}
+
+.next_event p:nth-child(5){
+	font-size: 21px;
+	font-family:"HelveticaNeue-light", Helvetica, "Arial-light", sans-serif;
+}
+
+.next_event p:last-child{
+	margin-top: 45px;	
+	font-size: 21px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+
+}
 
 .book_spot {
 	position: absolute;
