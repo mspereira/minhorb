@@ -374,6 +374,11 @@ font-size: 21px;
 	text-decoration: none;
 	color: #ffffff;
 }
+.sponsors_wraper {
+	height: 740px;
+	max-width: 1280px;
+	margin:0 auto 0;
+}
 .vertical_line{
 	border-left:1px solid #ffffff;
 	height:500px;
