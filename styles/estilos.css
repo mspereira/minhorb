@@ -66,6 +66,7 @@ nav ul li a {
 .wraper_home{
 	background-size: 100%;
 	background:url(..//img/fundo_pag_1.png);
+	background-attachment: fixed;
 	width: 100%;
 	margin: 0 auto 0 auto;
 	min-width: 1280px;
@@ -251,8 +252,9 @@ font-size: 21px;
 }
 /*inicio eventos*/
 .wraper_events{
-	background-size: 100%;
+	background-size: cover;
 	background:url(..//img/fundo_red_poly.png);
+	background-attachment: fixed;
 	width: 100%;
 	margin: 0 auto 0;
 	min-width: 1280px;
@@ -316,23 +318,70 @@ font-size: 21px;
 }
 .faces ul li{
 	padding-left: 0px;
-	padding-top: 20px;
 	color: white;
 }
 .faces ul li:first-child{
 	display: inline-block;
-	padding:0;
+	padding:0 0 35 0;
 	color: white;
+	font-size: 21px;
 
 }
-.faces img{
-	display: inline-block;
+.faces ul li img{
 	width: 65px;
 	height: 65px;
+}
+.media-content, .media-image{
+	display: inline-block;
+}
+.media-content {
+	margin-left: 10px;
+}
+.ruby_events{
+	position: absolute;
+	display: inline-block;
+	width: 400px;
+	height: 400px;
+	background-size: 100%;
+	background:url(..//img/fundo_pag_1.png);
+	background-position-y:-250px;
+	margin-left: 25px;
+}
+.ruby_date{
+	margin-right: 10px;
+	font-size: 19px;
+	height: 65px;
+	width: 65px;
+	display: inline-block;
+	background-color: #B92609;
+	text-align: center;
+	margin-left: 35px;
+	margin-bottom: 15px;
+	color: #ffffff;
+	font-family:"HelveticaNeue-Bold", Helvetica, "Arial-bold;", sans-serif;
+}.ruby_date p{
+	margin: 10 0 0 0 ;
+
+}.ruby_images{display: inline-block;}
+
+.ruby_cities{
+	display: inline-block;
+	margin-left: 10px;
+}
+
+.ruby_date_city_1{
+	margin: 0;
+}
+
+.ruby_date_city{
+	margin-top: 30px;
 }
 
 
 /* Inicio Sponsors */
+
+
+
 .wraper_sponsors{
 	background-color: #333333;
 	width: 100%;
@@ -412,18 +461,21 @@ font-size: 21px;
 	width: 400px;
 	color: #ffffff;
 }
-.gb_fac_wraper{
+.gb_factory_wraper{
 	margin-left: 100px;
 	vertical-align: top;
 }
 
 .newsletter_form{
-	display: inline-block;
+	display: block;
 	width: 700px;
+	margin: auto;
 
 }
 
 .newsletter_form p{
+	margin-top: 0;
+	padding-top: 45px;
 	color: #ffffff;
 	font-size: 21px;
 	font-family:"HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
@@ -453,13 +505,13 @@ font-size: 21px;
 	height: 200px;
 	background-size: 100%;
 	background:url(..//img/fundo_red_poly.png);
+	background-attachment: fixed;
 	background-position-y: 500px;
 }
 #newsletter_wraper{
 	max-width: 1280px;
 	margin: 0 auto;
-	padding-left: 410px;
-	padding-top: 25px; 
+
 }
 .anchor{
   display: block;
