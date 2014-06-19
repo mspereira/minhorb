@@ -257,13 +257,11 @@ font-size: 21px;
 	width: 100%;
 	margin: 0 auto 0;
 	min-width: 1280px;
-
-
 }
 #events{
-	height: 800px;
+		height: 800px;
 	max-width: 1280px;
-	margin:0 auto 0;
+	margin:0 auto 0 auto;
 }
 .events_style h2{
 	width: 100%;
@@ -337,26 +335,26 @@ font-size: 21px;
 
 /* Inicio Sponsors */
 .wraper_sponsors{
-	background-size: 100%;
 	background-color: #333333;
-	background-size: 2000px;
 	width: 100%;
-	margin: 0 auto 0;
+	margin: 0 auto 0 auto;
 	min-width: 1280px;
-	position: absolute;
-
 }
+
 #sponsors{
+	width: 1280px;
 	background-color: #333333;
 	height: 740px;
 	max-width: 1280px;
 	margin:0 auto 0;
+	position: relative;
 }
-.sponsors_style h1 {
+#sponsors h1 {
 	font-size: 60px;
 	font-family: "HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 	color: #ffffff;
-	margin-top: 45px;
+	margin-top: 0;
+	padding-top: 45px;
 }
 .become_sponsor {
 	font-size: 21px;
@@ -369,55 +367,53 @@ font-size: 21px;
 	right: 0;
 	margin-right: 30px;
 	position: absolute;
+	margin-top: 45px;
+
 }
 .become_sponsor a {
 	text-decoration: none;
 	color: #ffffff;
 }
 .sponsors_wraper {
+	min-width: 1280px;
 	height: 740px;
-	max-width: 1280px;
 	margin:0 auto 0;
 }
 .vertical_line{
+	margin: 0 100 0 100 ;
 	border-left:1px solid #ffffff;
 	height:500px;
-	margin-left: 640px;
-	position: absolute;
+	display: inline-block;
 }
 
 .groupbuddies img {
 	width: 265px;
 	height: 195px;
-	position: absolute;
-	left: 180;
-	top: 195;
 }
+.groupbuddies{
+	display: inline-block;
 
+}
 .groupbuddies p {
 	font-size: 21px;
 	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
 	width: 400px;
 	color: #ffffff;
-	position: absolute;
-	left: 120;
-	top: 415;
 }
-
+.factory{
+	display: inline-block;
+}
 .factory img {
 	width: 440px;
 	height: 230px;
-	right: 100;
-	position: absolute;
-	top: 195;
 }
 .factory p {
 	font-size: 21px;
 	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
 	width: 400px;
 	color: #ffffff;
-	right: 120;
-	position: absolute;
-	top: 415;	
 }
-
+.gb_fac_wraper{
+	margin-left: 100px;
+	vertical-align: top;
+}
