@@ -506,7 +506,7 @@ font-size: 21px;
 	background-size: 100%;
 	background:url(..//img/fundo_red_poly.png);
 	background-attachment: fixed;
-	background-position-y: 500px;
+	background-position-y: -500px;
 }
 #newsletter_wraper{
 	max-width: 1280px;
