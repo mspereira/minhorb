@@ -72,7 +72,7 @@ nav ul li a {
 
 
 }
-#home{
+#home_wraper{
 	margin-top: 150px;
 	height: 640px;
 	max-width: 1280px;
@@ -217,7 +217,7 @@ font-size: 21px;
 	margin: 0 auto 0;
 	min-width: 1280px;
 }
-#about{
+#about_wraper{
 	position: relative;
 	height: 800px;
 	max-width: 1280px;
@@ -257,7 +257,7 @@ font-size: 21px;
 	margin: 0 auto 0;
 	min-width: 1280px;
 }
-#events{
+#events_wraper{
 		height: 800px;
 	max-width: 1280px;
 	margin:0 auto 0 auto;
@@ -340,7 +340,7 @@ font-size: 21px;
 	min-width: 1280px;
 }
 
-#sponsors{
+#sponsors_wraper{
 	width: 1280px;
 	background-color: #333333;
 	height: 740px;
@@ -348,7 +348,7 @@ font-size: 21px;
 	margin:0 auto 0;
 	position: relative;
 }
-#sponsors h1 {
+#sponsors_wraper h1 {
 	font-size: 60px;
 	font-family: "HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 	color: #ffffff;
@@ -422,6 +422,7 @@ font-size: 21px;
 	width: 700px;
 
 }
+
 .newsletter_form p{
 	color: #ffffff;
 	font-size: 21px;
@@ -460,4 +461,10 @@ font-size: 21px;
 	position: absolute;
 	left: 450;
 	margin-top: 35px;
+}
+.anchor{
+  display: block;
+  height: 115px; /*same height as header*/
+  margin-top: -115px; /*same height as header*/
+  visibility: hidden;
 }
