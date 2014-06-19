@@ -333,3 +333,86 @@ font-size: 21px;
 	width: 65px;
 	height: 65px;
 }
+
+
+/* Inicio Sponsors */
+.wraper_sponsors{
+	background-size: 100%;
+	background-color: #333333;
+	background-size: 2000px;
+	width: 100%;
+	margin: 0 auto 0;
+	min-width: 1280px;
+	position: absolute;
+
+}
+#sponsors{
+	background-color: #333333;
+	height: 740px;
+	max-width: 1280px;
+	margin:0 auto 0;
+}
+.sponsors_style h1 {
+	font-size: 60px;
+	font-family: "HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+	color: #ffffff;
+	margin-top: 45px;
+}
+.become_sponsor {
+	font-size: 21px;
+	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+	border: solid 1px #ffffff;
+	text-align: center;
+	padding-top: 15px;
+	width: 225px;
+	height: 45px;
+	right: 0;
+	margin-right: 30px;
+	position: absolute;
+}
+.become_sponsor a {
+	text-decoration: none;
+	color: #ffffff;
+}
+.vertical_line{
+	border-left:1px solid #ffffff;
+	height:500px;
+	margin-left: 640px;
+	position: absolute;
+}
+
+.groupbuddies img {
+	width: 265px;
+	height: 195px;
+	position: absolute;
+	left: 180;
+	top: 195;
+}
+
+.groupbuddies p {
+	font-size: 21px;
+	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+	width: 400px;
+	color: #ffffff;
+	position: absolute;
+	left: 120;
+	top: 415;
+}
+
+.factory img {
+	width: 440px;
+	height: 230px;
+	right: 100;
+	position: absolute;
+	top: 195;
+}
+.factory p {
+	font-size: 21px;
+	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
+	width: 400px;
+	color: #ffffff;
+	right: 120;
+	position: absolute;
+	top: 415;	
+}
+
