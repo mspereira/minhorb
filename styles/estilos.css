@@ -455,11 +455,11 @@ font-size: 21px;
 	background:url(..//img/fundo_red_poly.png);
 	background-position-y: 500px;
 }
-#newsletter{
+#newsletter_wraper{
 	max-width: 1280px;
 	margin: 0 auto;
 	padding-left: 410px;
-	padding-top: 30px;
+	padding-top: 25px; 
 }
 .anchor{
   display: block;
