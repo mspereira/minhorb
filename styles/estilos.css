@@ -73,7 +73,7 @@ nav ul li a {
 
 
 }
-#home_wraper{
+.home{
 	margin-top: 150px;
 	height: 640px;
 	max-width: 1280px;
@@ -218,7 +218,7 @@ font-size: 21px;
 	margin: 0 auto 0;
 	min-width: 1280px;
 }
-#about_wraper{
+.about{
 	position: relative;
 	height: 800px;
 	max-width: 1280px;
@@ -259,7 +259,7 @@ font-size: 21px;
 	margin: 0 auto 0;
 	min-width: 1280px;
 }
-#events_wraper{
+.events{
 		height: 800px;
 	max-width: 1280px;
 	margin:0 auto 0 auto;
@@ -389,7 +389,7 @@ font-size: 21px;
 	min-width: 1280px;
 }
 
-#sponsors_wraper{
+.sponsors{
 	width: 1280px;
 	background-color: #333333;
 	height: 740px;
@@ -397,7 +397,7 @@ font-size: 21px;
 	margin:0 auto 0;
 	position: relative;
 }
-#sponsors_wraper h1 {
+.sponsors h1 {
 	font-size: 60px;
 	font-family: "HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 	color: #ffffff;
