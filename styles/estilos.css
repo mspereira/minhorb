@@ -43,14 +43,17 @@ nav > * {
 	margin-right:-5px;
 }
 .list ul{
-	padding-left:0;
 }.list ul li{
 	display: inline;
-	margin-left: 20px;
-	padding: 0;
+	margin-left: 0px;
+	padding-left: 40px;
 }.list ul li a{
 	text-decoration: none;
 	color: #000000;
+	font-size: 21px;
+}
+.list a:hover{
+	color: #666666;
 	font-size: 21px;
 }
 .subscribe_news{
@@ -62,6 +65,9 @@ nav > * {
 }.subscribe_news a{
 	text-decoration: none;
 	color: #000000;
+	font-size: 21px;
+}.subscribe_news a:hover{
+	color: #666666;
 	font-size: 21px;
 }
 
