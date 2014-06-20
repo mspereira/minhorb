@@ -340,6 +340,12 @@ font-size: 21px;
 .media-content {
 	margin-left: 10px;
 }
+
+.other_events_ruby{
+	margin-left: 35px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
+}
+
 .ruby_events{
 	position: absolute;
 	display: inline-block;
@@ -440,6 +446,7 @@ font-size: 21px;
 .groupbuddies img {
 	width: 265px;
 	height: 195px;
+	margin-left: 50px;
 }
 .groupbuddies{
 	display: inline-block;
