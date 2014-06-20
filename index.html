@@ -5,7 +5,7 @@
 		<link rel="stylesheet" type="text/css" href="styles/estilos.css">
 	</head>
 	<body>
-			<header>
+			<header id="header">
 				<nav>
 					<img src="img/logo_rb_square.png">
 					<div class="list">
@@ -215,5 +215,36 @@
 				</footer>
 			</div>
 
+			<script src="scripts/jquery.min.js"></script>
+			<script>
+					$(function(){
+					    $('#header').data('size','big');
+					});
+
+					$(window).scroll(function(){
+					    if($(document).scrollTop() > 0)
+					    {
+					        if($('#header').data('size') == 'big')
+					        {
+					            $('#header').data('size','small');
+					            $('#header').stop().animate({
+					                height:'100px'
+					            },600);
+					        }
+					    }
+					    else
+					    {
+					        if($('#header').data('size') == 'small')
+					        {
+					            $('#header').data('size','big');
+					            $('#header').stop().animate({
+					                height:'150px'
+					            },600);
+					        }  
+					    }
+					});
+			</script>
+
 	</body>
 </html>
+					
