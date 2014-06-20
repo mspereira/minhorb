@@ -1,3 +1,6 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
 body{
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -16,50 +19,50 @@ header {
 	height: 150px;
 	top: 0;
 }
-header img {
-	width: 65px;
-	height: 65px;
-	float:left;
-	margin-top:55px;
-	margin-left: 30px;
-}
-nav ul{
-	min-width: 1000px;
-	list-style: none;
-	margin: 0 auto 0 auto;
-	line-height: 170px;
-	margin-left: 2%;
-	font-size: 25px;
-	font-family:"HelveticaNeue-Light", Helvetica, "Arial-light", sans-serif;
-	height: 150px;
-}
-nav ul li {
-	display: inline-block;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 3%;
-}
-nav ul li:last-child{
-	margin-top: 60px;
-	margin-right: 2%;
-    float: right;
-    text-decoration: none;
-    border: solid;
-    text-align: center;
-    font-size: 21px;
-    padding: 15px;
-    height: 30px;
-    line-height: normal;
-
-}
 nav {
+
+	position: relative;
 	width: 90%;
 	margin: 0 auto;
 }
-nav ul li a {
+header img {
+	display: inline-block;
+	width: 65px;
+	height: 65px;
+	margin-top:55px;	
+}
+.list{
+	vertical-align: top;
+	line-height: 140px;
+	position: top;
+	display: inline-block;
+	width:  calc(100% - 65px - 286px);
+}
+nav > * {
+	margin-left:-5px;
+	margin-right:-5px;
+}
+.list ul{
+	padding-left:0;
+}.list ul li{
+	display: inline;
+	margin-left: 20px;
+	padding: 0;
+}.list ul li a{
 	text-decoration: none;
-	color: black;
-	cursor: pointer;
+	color: #000000;
+	font-size: 21px;
+}
+.subscribe_news{
+	margin-top: 50px;
+	vertical-align: top;
+	border: solid ;
+	display: inline-block;
+	padding: 15px;
+}.subscribe_news a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 21px;
 }
 
 /*HOME*/
@@ -409,7 +412,7 @@ font-size: 21px;
 	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
 	border: solid 1px #ffffff;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 10px;
 	width: 225px;
 	height: 45px;
 	right: 0;
