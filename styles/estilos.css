@@ -337,6 +337,12 @@ font-size: 21px;
 .media-content {
 	margin-left: 10px;
 }
+
+
+.other_ruby_events{
+	margin-left: 35px;
+}
+
 .ruby_events{
 	position: absolute;
 	display: inline-block;
@@ -437,6 +443,7 @@ font-size: 21px;
 .groupbuddies img {
 	width: 265px;
 	height: 195px;
+	margin-left: 50px;
 }
 .groupbuddies{
 	display: inline-block;
