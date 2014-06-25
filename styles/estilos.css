@@ -36,6 +36,7 @@ nav > * {
 	position: absolute;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
+	transform: translateY(-50%);
 	margin-left:-5px;
 	margin-right:-5px;
 }
@@ -85,6 +86,7 @@ nav > * {
 	margin: 150 auto 0;
 }
 .home_minhorb{
+	margin-left: 30px;
 	vertical-align: top;
 	display: inline-block;
 	width: 60%
@@ -230,6 +232,7 @@ font-size: 21px;
 	margin: 0 auto 0;
 }
 .about_fold2{
+	margin-left: 30px;
 	display: inline-block;
 	width: 700px;
 }
@@ -270,12 +273,14 @@ font-size: 21px;
 	margin:0 auto 0 auto;
 }
 .events_style h2{
+	margin-left: 30px;
 	width: 100%;
 	display: inline-block;
 	font-size: 60px;
 	color: #ffffff;
 }
 .events_style p{
+	padding-left: 30px;
 	margin: 0;
 	width: 100%;
 	display: inline-block;
@@ -283,6 +288,7 @@ font-size: 21px;
 	color: #ffffff;
 }
 .mapa{
+	margin-left: 30px;
 	background-position-y: 100px; 
 	background:url(..//img/twitter_fundo.png);
 	display: inline-block;
@@ -409,6 +415,7 @@ font-size: 21px;
 	position: relative;
 }
 .sponsors h1 {
+	margin-left: 30px;
 	font-size: 60px;
 	font-family: "HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 	color: #ffffff;
