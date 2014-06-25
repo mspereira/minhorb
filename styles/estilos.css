@@ -1,3 +1,6 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
 body{
 font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", 
   Helvetica, Arial, "Lucida Grande", sans-serif;
@@ -6,60 +9,65 @@ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
 
 
 
-header {
+#header {
 	z-index: 1;
 	left: 0;
-	position: absolute;
 	width: 100%;
 	position: fixed;
 	background-color: #ffffff;
 	height: 150px;
 	top: 0;
 }
-header img {
-	width: 65px;
-	height: 65px;
-	float:left;
-	margin-top:55px;
-	margin-left: 30px;
-}
-nav ul{
-	min-width: 1000px;
-	list-style: none;
-	margin: 0 auto 0 auto;
-	line-height: 170px;
-	margin-left: 2%;
-	font-size: 25px;
-	font-family:"HelveticaNeue-Light", Helvetica, "Arial-light", sans-serif;
-	height: 150px;
-}
-nav ul li {
-	display: inline-block;
-	margin-top: 0;
-	margin-bottom: 0;
-	padding-left: 3%;
-}
-nav ul li:last-child{
-	margin-top: 60px;
-	margin-right: 2%;
-    float: right;
-    text-decoration: none;
-    border: solid;
-    text-align: center;
-    font-size: 21px;
-    padding: 15px;
-    height: 30px;
-    line-height: normal;
-
-}
 nav {
+	position: relative;
 	width: 90%;
+	height: 100%;
 	margin: 0 auto;
 }
-nav ul li a {
+#header img {
+	display: inline-block;
+	left: 0;
+	width: 65px;
+	height: 65px;	
+}
+.list{
+	display: inline-block;
+	left: 65px;
+	width:  calc(100% - 65px - 286px);
+}
+nav > * {
+	position: absolute;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	margin-left:-5px;
+	margin-right:-5px;
+}
+.list ul{
+}.list ul li{
+	display: inline;
+	margin-left: 0px;
+	padding-left: 40px;
+}.list ul li a{
 	text-decoration: none;
-	color: black;
-	cursor: pointer;
+	color: #000000;
+	font-size: 21px;
+}
+.list a:hover{
+	color: #666666;
+	font-size: 21px;
+}
+.subscribe_news{
+	right: 0;
+	border: solid ;
+	display: inline-block;
+	padding: 15px;
+}.subscribe_news a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 21px;
+}.subscribe_news a:hover{
+	color: #666666;
+	font-size: 21px;
 }
 
 /*HOME*/
@@ -80,6 +88,7 @@ nav ul li a {
 	margin: 150 auto 0;
 }
 .home_minhorb{
+	margin-left: 30px;
 	vertical-align: top;
 	display: inline-block;
 	width: 60%
@@ -227,6 +236,7 @@ font-size: 21px;
 .about_fold2{
 	display: inline-block;
 	width: 700px;
+	margin-left: 30px;
 }
 .about_fold2 h1{
 	color: #ffffff;
@@ -260,9 +270,13 @@ font-size: 21px;
 	min-width: 1280px;
 }
 .events{
+
 		height: 800px;
 	max-width: 1280px;
 	margin:0 auto 0 auto;
+}
+.events_style{
+	margin-left: 30px;
 }
 .events_style h2{
 	width: 100%;
@@ -276,14 +290,17 @@ font-size: 21px;
 	display: inline-block;
 	font-size: 21px;
 	color: #ffffff;
+	
 }
 .mapa{
+	margin-left: 30px;
 	background-position-y: 100px; 
 	background:url(..//img/twitter_fundo.png);
 	display: inline-block;
 	width: 310px;
 	height:400px;
 }.mapa iframe{
+
 	margin: 20 20 20 20;
 }.book_spot_mapa {
 	bottom: 0;
@@ -338,9 +355,9 @@ font-size: 21px;
 	margin-left: 10px;
 }
 
-
-.other_ruby_events{
+.other_events_ruby{
 	margin-left: 35px;
+	font-family:"HelveticaNeue-bold", Helvetica, "Arial-bold;", sans-serif;
 }
 
 .ruby_events{
@@ -409,13 +426,14 @@ font-size: 21px;
 	color: #ffffff;
 	margin-top: 0;
 	padding-top: 45px;
+	margin-left: 30px;
 }
 .become_sponsor {
 	font-size: 21px;
 	font-family: "HelveticaNeue-light", Helvetica, "Arial-light;", sans-serif;
 	border: solid 1px #ffffff;
 	text-align: center;
-	padding-top: 15px;
+	padding-top: 10px;
 	width: 225px;
 	height: 45px;
 	right: 0;
@@ -472,6 +490,7 @@ font-size: 21px;
 	margin-left: 100px;
 	vertical-align: top;
 }
+
 /*newsletter*/
  .wraper_newsletter {
 	background:url(..//img/fundo_red_poly.png);
